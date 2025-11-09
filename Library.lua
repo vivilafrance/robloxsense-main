@@ -1373,7 +1373,7 @@
     -- Library element functions
         function Library:Window(properties)
             local Cfg = {
-                Name = properties.Name or "Robloxsense";
+                Name = properties.Name or "nebula";
                 Size = properties.Size or dim2(0, 455, 0, 605);
                 TabInfo;
                 Items = {};
@@ -1898,7 +1898,7 @@
                         TextColor3 = rgb(239, 239, 239);
                         BorderColor3 = rgb(0, 0, 0);
                         RichText = true;
-                        Text = Cfg.Name .. "";
+                        Text = Cfg.Name .. "lua";
                         Parent = Items.Watermark;
                         Name = "\0";
                         BackgroundTransparency = 1;
@@ -1925,7 +1925,7 @@
                     Library:Create( "ImageLabel" , {
                         BorderColor3 = rgb(0, 0, 0);
                         Parent = Items.Watermark;
-                        Image = "rbxassetid://70912489368548";
+                        Image = "rbxassetid://";
                         BackgroundTransparency = 1;
                         Position = dim2(0, 3, 0, 2);
                         Size = dim2(0, 11, 0, 15);
