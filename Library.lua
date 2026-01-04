@@ -3293,8 +3293,8 @@ do
 			Data = Data or {}
 
 			local Window = {
-				Name = Data.Name or Data.name or "Bronx Dupe",
-				Logo = Data.Logo or Data.logo or "121644323941494",
+				Name = Data.Name or Data.name or "Robloxsense",
+				Logo = Data.Logo or Data.logo or "114505281882979",
 
 				Pages = {},
 				Items = {},
@@ -3365,7 +3365,7 @@ do
 					Name = "\0",
 					ImageColor3 = FromRGB(255, 0, 0),
 					BorderColor3 = FromRGB(0, 0, 0),
-					Image = "rbxassetid://77298421442104",
+					Image = "rbxassetid://114505281882979",
 					BackgroundTransparency = 1,
 					Position = UDim2New(0, 8, 0, 10),
 					Size = UDim2New(0, 18, 0, 18),
