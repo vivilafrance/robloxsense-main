@@ -5370,7 +5370,7 @@ do
 				Library:RefreshConfigsList(ConfigsSearchbox)
 			end
 
-			local ThemingSection = SettingsPage:Section({ Name = "Theming", Side = 2 })
+			local ThemingSection = SettingsPage:Section({ Name = "Theming", Side = 1 })
 			do
 				for Index, Value in Library.Theme do
 					ThemingSection:Label(Index):Colorpicker({
