@@ -3614,7 +3614,7 @@ local Library do
                         BorderSizePixel = 0,
                         Position = UDim2New(0, 8, 0, 65),
                         Size = UDim2New(1, -16, 0, 20),
-                        ZIndex = 2,
+                        ZIndex = 0,
                         TextSize = 14,
                         BackgroundColor3 = FromRGB(255, 255, 255)
                     })
@@ -3633,7 +3633,7 @@ local Library do
                         BackgroundTransparency = 1,
                         Position = UDim2New(0, 0, 0.5, 0),
                         BorderColor3 = FromRGB(0, 0, 0),
-                        ZIndex = 1,
+                        ZIndex = 0,
                         TextSize = 14,
                         BackgroundColor3 = FromRGB(255, 255, 255)
                     })  ToggleItems["Text"]:AddToTheme({TextColor3 = "Text"})
@@ -3645,7 +3645,7 @@ local Library do
                         AnchorPoint = Vector2New(1, 0.5),
                         Position = UDim2New(1, 0, 0.5, 0),
                         Size = UDim2New(0, 20, 0, 20),
-                        ZIndex = 2,
+                        ZIndex = 0,
                         BorderSizePixel = 0,
                         BackgroundColor3 = FromRGB(34, 39, 45)
                     })  ToggleItems["Indicator"]:AddToTheme({BackgroundColor3 = "Element"})
