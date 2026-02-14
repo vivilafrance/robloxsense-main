@@ -3363,14 +3363,14 @@ do
 				Items["Logo"] = Instances:Create("ImageLabel", {
 					Parent = Items["Inline"].Instance,
 					Name = "\0",
-					ImageColor3 = FromRGB(255, 0, 0),
+					ImageColor3 = FromRGB(0, 255, 152),
 					BorderColor3 = FromRGB(0, 0, 0),
 					Image = "rbxassetid://114505281882979",
 					BackgroundTransparency = 1,
 					Position = UDim2New(0, 8, 0, 10),
 					Size = UDim2New(0, 18, 0, 18),
 					BorderSizePixel = 0,
-					BackgroundColor3 = FromRGB(255, 0, 0),
+					BackgroundColor3 = FromRGB(255, 255, 255),
 				})
 
 				Items["Title"] = Instances:Create("TextLabel", {
